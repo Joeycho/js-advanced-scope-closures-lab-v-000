@@ -1,18 +1,16 @@
 function produceDrivingRange(range){
-  return function checkDistance(dist1, dist2){
+  return function checkDistance(distOne, distTwo){
     let rangeInt = parseInt(range)
-    let dist1Int = parseInt(dist1)
-    let dist2Int = parseInt(dist2)
+    let distOneInt = parseInt(distOne)
+    let distTwoInt = parseInt(distTwo)
 
-    let diff = Math.abs(dist1Int-dist2Int)
+    let diff = Math.abs(distOneInt-distTwoInt)
 
     if(diff=<rangeInt){
       return `within range by ${rangeInt-diff}`
     }else{
       return `${diff-rangeInt} blocks out of range`
     }
-
-
   }
 }
 
