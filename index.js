@@ -8,7 +8,7 @@ function produceDrivingRange(range){
 
 //    return Math.abs(diff-rangeInt)
 
-    if(diff<rangeInt){
+    if(diff<=rangeInt){
       return `within range by ${rangeInt-diff}`
     }else{
       return `${diff-rangeInt} blocks out of range`
