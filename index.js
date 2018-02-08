@@ -4,4 +4,20 @@ function produceDrivingRange(range){
   }
 }
 
-function p
+function produceTipCalculator(percent){
+  return function calculate(fare){
+    return fare*percent
+  }
+}
+
+function createDriver(){
+  let driverId = 0
+
+  return class Driver{
+    constructor(){
+      driverId++
+    }
+  }
+    
+  }
+}
