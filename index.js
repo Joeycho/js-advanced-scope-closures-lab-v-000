@@ -2,8 +2,10 @@ function produceDrivingRange(range){
   return function checkDistance(distance){
     if(range>distance){
       return 'within range by 10'
-    }else{
+    }else if (distance > range) {
       return `${distance-range} blocks out of range`
+    }
+      
     }
   }
 }
