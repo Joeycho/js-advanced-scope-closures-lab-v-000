@@ -13,7 +13,7 @@ function produceDrivingRange(range){
     }
   }*/ function test(dis1, dis2){
   return dis1+dis2
-}
+  }
 }
 
 function produceTipCalculator(percent){
