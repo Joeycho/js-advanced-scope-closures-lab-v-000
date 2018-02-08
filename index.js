@@ -5,13 +5,13 @@ function produceDrivingRange(range){
     let distTwoInt = parseInt(distTwo)
 
     let diff = Math.abs(distOneInt-distTwoInt)
-
+/*
     if(diff=<rangeInt){
       return `within range by ${rangeInt-diff}`
     }else{
       return `${diff-rangeInt} blocks out of range`
     }
-
+*/
   }
 }
 
