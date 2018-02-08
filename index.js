@@ -6,7 +6,7 @@ function produceDrivingRange(range){
 
     let diff = Math.abs(distOneInt-distTwoInt)
 
-    return distTwoInt
+    return diff-rangeInt
 /*
     if(diff=<rangeInt){
       return `within range by ${rangeInt-diff}`
