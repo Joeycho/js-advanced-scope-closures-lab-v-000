@@ -1,11 +1,13 @@
 function produceDrivingRange(range){
   return function checkDistance(distance){
-    if(range>distance){
+    let rangeint = parseInt(range)
+    let distanceint = parseInt(distance)    
+    if(range>=distance){
       return 'within range by 10'
-    }else if (distance > range) {
-      return `${distance-range} blocks out of range`
+    }else{
+      return `${distance.split-range} blocks out of range`
     }
-      
+
     }
   }
 }
