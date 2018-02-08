@@ -29,7 +29,7 @@ function createDriver(){
   return class Driver{
     constructor(name){
       this.name = name
-      driverId++
+      this.id = driverId++
     }
   }
   }
