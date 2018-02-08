@@ -3,14 +3,14 @@ function produceDrivingRange(range){
     let rangeInt = parseInt(range)
     let distanceInt = parseInt(distance)
 
-    
+
     if(rangeInt>=distanceInt){
       return `within range by ${rangeInt-distanceInt}`
     }else{
       return `${distnaceInt-rangeInt} blocks out of range`
     }
 
-    }
+  
   }
 }
 
