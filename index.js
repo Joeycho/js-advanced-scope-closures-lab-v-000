@@ -1,5 +1,5 @@
 function produceDrivingRange(range){
-  return function checkDistance(distOne, distTwo){
+  return /*function checkDistance(distOne, distTwo){
     let rangeInt = parseInt(range)
     let distOneInt = parseInt(distOne)
     let distTwoInt = parseInt(distTwo)
@@ -11,7 +11,9 @@ function produceDrivingRange(range){
     }else{
       return `${diff-rangeInt} blocks out of range`
     }
-  }
+  }*/ function test(dis1, dis2){
+  return dis1+dis2
+}
 }
 
 function produceTipCalculator(percent){
