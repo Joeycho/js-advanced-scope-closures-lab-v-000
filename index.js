@@ -7,10 +7,10 @@ function produceDrivingRange(range){
     if(rangeInt>=distanceInt){
       return `within range by ${rangeInt-distanceInt}`
     }else{
-      return `${distnaceInt-rangeInt} blocks out of range`
+      return `${distanceInt-rangeInt} blocks out of range`
     }
 
-  
+
   }
 }
 
